@@ -23,26 +23,21 @@ int main()
 	{
 	case first:
 		userPoints = 1000;
-		std::cout << "POINTS\n"
-				  << userPoints;
 		break;
 	case second:
 		userPoints = 500;
-		std::cout << "POINTS\n"
-				  << userPoints;
 		break;
 	case third:
 		userPoints = 250;
-		std::cout << "POINTS\n"
-				  << userPoints;
 		break;
 	default:
 		std::cout << "Invalid\n";
 		break;
 	}
 
-	std::cout << "POINTS\n"
-			  << userPoints;
+	std::cout << "POINTS\n";
+	std::cout << userPoints << endl;
 
+	std::system("pause");
 	return 0;
 }
