@@ -1,4 +1,5 @@
 #include <iostream>
+using std::cin;
 using std::cout;
 using std::string;
 
@@ -37,9 +38,13 @@ int main()
     Vector *changeCoord;
     changeCoord = &v;
     v.x = 10;
-    cout << v.x << '\n';  // output Vector.x
-    cout << &v.x << '\n'; // output address to variable
+    cout << v.x << '\n';          // output Vector.x
+    cout << &v.x << '\n';         // output address to variable
+    cout << &changeCoord << '\n'; // output address to changeCoord
     // test end
+    int i;
+    cin >> i;
+    cout << i;
 
     std::system("pause");
     return 0;
